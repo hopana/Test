@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.jstl_1.2">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web.jstl"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_5.0"/>
+	<classpathentry kind="lib" path="src/jackson/jackson-all-1.7.6.jar"/>
+	<classpathentry kind="lib" path="src/jackson/jackson-core-2.4.4.jar"/>
+	<classpathentry kind="lib" path="src/jackson/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="src/jackson/jedis-2.7.3.jar"/>
+	<classpathentry kind="lib" path="src/jackson/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="src/fastjson/fastjson-1.2.15.jar" sourcepath="D:/Develop/src/fastjson-1.2.15"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

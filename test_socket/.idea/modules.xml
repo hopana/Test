@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../test-dubbo/test-dubbo.iml" filepath="$PROJECT_DIR$/../test-dubbo/test-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testCallback/testCallback.iml" filepath="$PROJECT_DIR$/../testCallback/testCallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testException/testException.iml" filepath="$PROJECT_DIR$/../testException/testException.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testPostOrder/testPostOrder.iml" filepath="$PROJECT_DIR$/../testPostOrder/testPostOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_db/test_db.iml" filepath="$PROJECT_DIR$/../test_db/test_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_java/test_java.iml" filepath="$PROJECT_DIR$/../test_java/test_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_javanet/test_javanet.iml" filepath="$PROJECT_DIR$/../test_javanet/test_javanet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_redis/test_redis.iml" filepath="$PROJECT_DIR$/../test_redis/test_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_security/test_security.iml" filepath="$PROJECT_DIR$/../test_security/test_security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_servlet/test_servlet.iml" filepath="$PROJECT_DIR$/../test_servlet/test_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_socket.iml" filepath="$PROJECT_DIR$/test_socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_web/test_web.iml" filepath="$PROJECT_DIR$/../test_web/test_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_xml/test_xml.iml" filepath="$PROJECT_DIR$/../test_xml/test_xml.iml" />
+    </modules>
+  </component>
+</project>

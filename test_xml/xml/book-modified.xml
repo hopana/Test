@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+	<book category="COOKING">
+		<title lang="chinese" test="1">title</title>
+		<author>Everyday Italian</author>
+		<year>2005</year>
+		<price>30.00</price>
+	</book>
+	<book category="CHILDREN">
+		<title lang="chinese" test="2">Harry Potter</title>
+		<author>J K. Rowling</author>
+		<year>2005</year>
+		<price>29.99</price>
+	</book>
+	<book category="XML">
+		<AAA lang="chinese" test="test">Learning XML</AAA>
+		<author>Erik T. Ray</author>
+		<year>2013</year>
+		<price>39.95</price>
+	</book>
+</bookstore>

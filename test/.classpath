@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/http/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="src/http/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="src/http/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="src/http/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="src/http/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="src/json/fastjson-1.2.5.jar"/>
+	<classpathentry kind="lib" path="src/img/javase-2.0.jar"/>
+	<classpathentry kind="lib" path="src/img/core_3.2.0.jar" sourcepath="D:/develop/src/zxing-zxing-3.2.0.zip"/>
+	<classpathentry kind="lib" path="src/excel/poi-3.10-FINAL-20140208.jar" sourcepath="D:/develop/src/poi-src-3.14.zip"/>
+	<classpathentry kind="lib" path="src/excel/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="src/excel/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="src/excel/poi-ooxml-3.10-FINAL-20140208.jar" sourcepath="D:/develop/src/poi-src-3.14.zip"/>
+	<classpathentry kind="lib" path="src/excel/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="src/excel/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="src/excel/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="src/excel/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

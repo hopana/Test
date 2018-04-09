@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Servlet -->
+  <servlet>
+  	<servlet-name>test</servlet-name>
+  	<servlet-class>servlet.ServletTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>test</servlet-name>
+  	<url-pattern>/hp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>downPDF</servlet-name>
+  	<servlet-class>http_servlet.DownPDF</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>downPDF</servlet-name>
+  	<url-pattern>/pdf</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Http Servlet -->
+  <servlet>
+  	<servlet-name>demo</servlet-name>
+  	<servlet-class>http_servlet.HttpServletTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>demo</servlet-name>
+  	<url-pattern>/hupan</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

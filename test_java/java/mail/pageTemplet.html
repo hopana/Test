@@ -1,0 +1,138 @@
+<html>
+<head>
+    <title>hihoCoder用户注册邮箱验证</title>
+    <meta charset="utf-8"/>
+    <style type="text/css">
+        body {
+            font-size: 14px;
+        }
+
+        span {
+            display: block;
+        }
+
+        .content {
+            width: 700px;
+            height: 380px;
+            margin: 10px auto;
+            position: relative;
+            border: 1px solid #8E8E8E;
+        }
+
+        .header {
+            margin: 10px 20px;
+            width: 660px;
+            height: 50px;
+            text-align: center;
+            background: url("http://static.hihocoder.com/images/logo.png") no-repeat;
+            border-bottom: 2px solid #3276B1;
+        }
+
+        .message {
+            margin: 10px 20px;
+            width: 660px;
+            height: 208px;
+        }
+
+        .message .links {
+            height: 127px;
+            padding: 20px 0;
+            border-bottom: 1px dashed #CCCCCC;
+        }
+
+        .message .links span{
+            height: 15px;
+            line-height: 15px;
+        }
+
+        .message .tips {
+            height: 50px;
+        }
+
+        .message .tips span{
+            color: #999999;
+            height: 25px;
+            line-height: 25px;
+            margin: 12px 0;
+            display: inline-block;
+        }
+
+        .footer {
+            width: 660px;
+            height: 49px;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            background: #F9F9F9;
+            border-top: 1px solid #CCCCCC;
+        }
+
+        .footer span {
+            color: #999999;
+            height: 15px;
+            line-height: 15px;
+            margin: 5px;
+        }
+
+        .hint {
+            color: #999999;
+            margin-bottom: 10px;
+        }
+
+        .font-small {
+            font-size: 12px;
+        }
+
+        .greet {
+            color: #1155D5;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            margin-bottom: 20px;
+        }
+
+        .url {
+            margin-bottom: 10px;
+        }
+
+        .url a {
+            color: #1155D5;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .url a:hover {
+            text-decoration: underline;
+        }
+
+        i {
+            font-style: normal;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="content">
+        <div id="header" class="header">
+
+        </div>
+        <div id="message" class="message">
+            <div id="links" class="links">
+                <span class="greet"><i id="name">hopana@163.com</i>, 您好：</span>
+                <span class="title">请您点击下面的链接(该链接在12小时内有效)，完成您在hihoCoder的验证</span>
+                <span class="url"><a id="url" href="http://hihocoder.com/user/activate?key=f9a999491121424761850116197a847d">http://hihocoder
+                    .com/user/activate?key=f9a999491121424761850116197a847d</a></span>
+                <span class="hint font-small">(如果链接无法点击，请复制黏贴到浏览器访问)</span>
+            </div>
+            <div id="tips" class="tips font-small">
+                <span>本邮件由系统自动发出，请勿回复</span>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="font-small">您收到此邮件是因为您在hihoCoder注册并同意接受来自该网站的邮件。</span>
+            <span class="font-small">如有任何疑问，请联系 webmaster@hihocoder.com</span>
+        </div>
+    </div>
+</body>
+</html>

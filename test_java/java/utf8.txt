@@ -1,0 +1,12 @@
+鎬讳箣锛屽疄渚嬪彉閲忓繀椤诲垱寤哄璞″悗鎵嶅彲浠ラ�杩囪繖涓璞℃潵浣跨敤锛岄潤鎬佸彉閲忓垯鍙互鐩存帴浣跨敤绫诲悕鏉ュ紩鐢ㄣ�
+渚嬪锛屽浜庝笅闈㈢殑绋嬪簭锛屾棤璁哄垱寤哄灏戜釜瀹炰緥瀵硅薄锛屾案杩滈兘鍙垎閰嶄簡涓�釜staticVar鍙橀噺锛屽苟涓旀瘡鍒涘缓涓�釜瀹炰緥瀵硅薄锛岃繖涓猻taticVar灏变細鍔�锛涗絾鏄紝姣忓垱寤轰竴涓疄渚嬪璞★紝灏变細鍒嗛厤涓�釜instanceVar锛屽嵆鍙兘鍒嗛厤澶氫釜instanceVar锛屽苟涓旀瘡涓猧nstanceVar鐨勫�閮藉彧鑷姞浜�娆°�
+public class VariantTest{
+		public static int staticVar = 0; 
+		public int instanceVar = 0; 
+		public VariantTest(){
+			staticVar++;
+			instanceVar++;
+			System.out.println(鈥渟taticVar=鈥�+ staticVar + 鈥�instanceVar=鈥�+ instanceVar);
+		}
+}
+澶囨敞锛氳繖涓В绛旈櫎浜嗚娓呮涓よ�鐨勫尯鍒	锛屾渶鍚庤繕鐢ㄤ竴涓叿浣撶殑搴旂敤渚嬪瓙鏉ヨ鏄庝袱鑰呯殑宸紓锛屼綋鐜颁簡鑷繁鏈夊緢濂界殑瑙ｈ闂鍜岃璁℃渚嬬殑鑳藉姏锛屾�缁存晱鎹凤紝瓒呰繃涓�埇绋嬪簭鍛橈紝鏈夊啓浣滆兘鍔涳紒

@@ -1,0 +1,9 @@
+/build
+build/
+/target
+targe/
+*.zip
+*.class
+/test/src/nio/small.data
+/test/src/nio/big.data
+bin

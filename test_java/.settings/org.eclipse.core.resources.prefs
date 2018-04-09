@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//java/io/byte_streams/FileCopyByByte.java=GBK
+encoding//java/io/byte_streams/FileCopyByByteBuffer.java=GBK
+encoding//java/io/byte_streams/FileCopyByChar.java=GBK
+encoding//java/io/byte_streams/FileCopyByCharBuffer.java=GBK
+encoding//java/io/byte_streams/FileCopyByCharBuffer2.java=GBK
+encoding//java/io/byte_streams/FileCopyTest.java=GBK
+encoding//java/io/byte_streams/ReadFileTest.java=GBK
+encoding//java/io/char_streams/InByteToChar.java=GB2312
+encoding//java/io/char_streams/OutByteToChar.java=UTF-8
