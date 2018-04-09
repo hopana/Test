@@ -39,15 +39,14 @@ public class ShortUrlGenerator {
 
         String[] resUrl = new String[4];
         for ( int i = 0; i < 4; i++) {
-
-            // 把加密字符按照8位一组看成16进制与0x3FFFFFFF进行位与运算
+            // 把加密字符按照8位一组看成16进制与0x3FFFFFFF(30位1)进行位与运算,即超过 30 位的忽略处理
             String tempStr = md5Str.substring(i * 8, i * 8 + 8);
 
             // 这里需要使用long型来转换，因为Inteper.parseInt()只能处理31位,首位为符号位,如果不用long，则会越界
             long lHexLong = 0x3FFFFFFF & Long.parseLong (tempStr, 16);
             StringBuilder outChars = new StringBuilder();
             for ( int j = 0; j < 6; j++) {
-                // 把得到的值与0x0000003D进行位与运算，取得字符数组chars索引
+                // 把得到的值与0x0000003D(十进制为61)进行位与运算，取得字符数组chars索引
                 long index = 0x0000003D & lHexLong;
                 // 把取得的字符相加
                 outChars.append(chars[(int) index]);
