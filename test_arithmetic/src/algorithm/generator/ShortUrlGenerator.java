@@ -34,14 +34,13 @@ public class ShortUrlGenerator {
                 "U" , "V" , "W" , "X" , "Y" , "Z"
 
         };
-        // 对传入网址进行 MD5 加密
+        // 对传入网址进行MD5加密，得到32位16进制串
         String md5Str = Md5Util.getMD5Str1(url);
 
         String[] resUrl = new String[4];
         for ( int i = 0; i < 4; i++) {
-            // 把加密字符按照8位一组看成16进制与0x3FFFFFFF(30位1)进行位与运算,即超过 30 位的忽略处理
             String tempStr = md5Str.substring(i * 8, i * 8 + 8);
-
+            // 把加密字符按照8位一组(相当于32位二进制)看成16进制与0x3FFFFFFF(相当于二进制30位1)进行位与运算,即超过 30 位的忽略处理
             // 这里需要使用long型来转换，因为Inteper.parseInt()只能处理31位,首位为符号位,如果不用long，则会越界
             long lHexLong = 0x3FFFFFFF & Long.parseLong (tempStr, 16);
             StringBuilder outChars = new StringBuilder();
@@ -50,7 +49,7 @@ public class ShortUrlGenerator {
                 long index = 0x0000003D & lHexLong;
                 // 把取得的字符相加
                 outChars.append(chars[(int) index]);
-                // 每次循环按位右移 5 位
+                // 每次循环按位右移5位
                 lHexLong = lHexLong >> 5;
             }
             // 把字符串存入对应索引的输出数组
