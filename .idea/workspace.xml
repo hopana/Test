@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20959de1-3eb6-4456-a9c6-0bb9220d9814" name="Default" comment="" />
+    <list default="true" id="20959de1-3eb6-4456-a9c6-0bb9220d9814" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/test_arithmetic/src/algorithm/sort/TopNSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_java/concurrent/CyclicBarrierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_java/tools/EarDiff.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/test_java/java/design_pattern/Proxy/bin/" />
     <ignored path="$PROJECT_DIR$/test/bin/" />
     <ignored path="$PROJECT_DIR$/test-dubbo/target/classes/" />
@@ -17,7 +21,6 @@
     <ignored path="$PROJECT_DIR$/testCallback/build/classes/" />
     <ignored path="$PROJECT_DIR$/testPostOrder/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,62 +45,49 @@
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1216937033">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="282" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="282" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Test" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayBlockingQueueTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_db/src/data_structure/queue/ArrayBlockingQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#1279#1280#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayBlockingQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5964">
-              <caret line="333" column="13" selection-start-line="333" selection-start-column="13" selection-end-line="333" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedBlockingQueueTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_db/src/data_structure/queue/LinkedBlockingQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-              <folding>
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShortUrlGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/generator/ShortUrlGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Md5Util.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/utils/Md5Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="1207">
               <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -106,11 +96,185 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringCompress.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/StringCompress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="578">
+              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_java/tools/EarDiff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_java/concurrent/CyclicBarrierTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/CyclicBarrier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4063">
+              <caret line="273" column="21" selection-start-line="273" selection-start-column="14" selection-end-line="273" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Phaser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3842">
+              <caret line="262" column="38" selection-start-line="262" selection-start-column="38" selection-end-line="262" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Executors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+              <folding>
+                <element signature="docComment;class#Executors#0" />
+                <element signature="docComment;method#newFixedThreadPool#0;class#Executors#0" />
+                <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" />
+                <element signature="method#newWorkStealingPool#0;class#Executors#0" />
+                <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" />
+                <element signature="method#newWorkStealingPool#1;class#Executors#0" />
+                <element signature="docComment;method#newFixedThreadPool#1;class#Executors#0" />
+                <element signature="method#newFixedThreadPool#1;class#Executors#0" />
+                <element signature="docComment;method#newSingleThreadExecutor#0;class#Executors#0" />
+                <element signature="method#newSingleThreadExecutor#0;class#Executors#0" />
+                <element signature="docComment;method#newSingleThreadExecutor#1;class#Executors#0" />
+                <element signature="method#newSingleThreadExecutor#1;class#Executors#0" />
+                <element signature="docComment;method#newCachedThreadPool#0;class#Executors#0" />
+                <element signature="method#newCachedThreadPool#0;class#Executors#0" />
+                <element signature="docComment;method#newCachedThreadPool#1;class#Executors#0" />
+                <element signature="method#newCachedThreadPool#1;class#Executors#0" />
+                <element signature="docComment;method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
+                <element signature="method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
+                <element signature="docComment;method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
+                <element signature="method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
+                <element signature="docComment;method#newScheduledThreadPool#0;class#Executors#0" />
+                <element signature="docComment;method#newScheduledThreadPool#1;class#Executors#0" />
+                <element signature="method#newScheduledThreadPool#1;class#Executors#0" />
+                <element signature="docComment;method#unconfigurableExecutorService#0;class#Executors#0" />
+                <element signature="method#unconfigurableExecutorService#0;class#Executors#0" />
+                <element signature="docComment;method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
+                <element signature="method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
+                <element signature="docComment;method#defaultThreadFactory#0;class#Executors#0" />
+                <element signature="docComment;method#privilegedThreadFactory#0;class#Executors#0" />
+                <element signature="docComment;method#callable#0;class#Executors#0" />
+                <element signature="method#callable#0;class#Executors#0" />
+                <element signature="docComment;method#callable#1;class#Executors#0" />
+                <element signature="method#callable#1;class#Executors#0" />
+                <element signature="docComment;method#callable#2;class#Executors#0" />
+                <element signature="method#callable#2;class#Executors#0" />
+                <element signature="class#18677:18756" />
+                <element signature="method#call#0;class#18677:18756" />
+                <element signature="docComment;method#callable#3;class#Executors#0" />
+                <element signature="method#callable#3;class#Executors#0" />
+                <element signature="class#19248:19344" />
+                <element signature="method#call#0;class#19248:19344" />
+                <element signature="docComment;method#privilegedCallable#0;class#Executors#0" />
+                <element signature="method#privilegedCallable#0;class#Executors#0" />
+                <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+                <element signature="method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+                <element signature="docComment;class#RunnableAdapter#0;class#Executors#0" />
+                <element signature="class#RunnableAdapter#0;class#Executors#0" />
+                <element signature="method#RunnableAdapter#0;class#RunnableAdapter#0;class#Executors#0" />
+                <element signature="method#call#0;class#RunnableAdapter#0;class#Executors#0" />
+                <element signature="docComment;class#PrivilegedCallable#0;class#Executors#0" />
+                <element signature="class#PrivilegedCallable#0;class#Executors#0" />
+                <element signature="method#PrivilegedCallable#0;class#PrivilegedCallable#0;class#Executors#0" />
+                <element signature="method#call#0;class#PrivilegedCallable#0;class#Executors#0" />
+                <element signature="class#22475:22661" />
+                <element signature="method#run#0;class#22475:22661" />
+                <element signature="docComment;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+                <element signature="class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+                <element signature="method#PrivilegedCallableUsingCurrentClassLoader#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+                <element signature="e#23308#23357#0" />
+                <element signature="e#23590#23648#0" />
+                <element signature="method#call#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+                <element signature="class#24124:24860" />
+                <element signature="method#run#0;class#24124:24860" />
+                <element signature="docComment;class#DefaultThreadFactory#0;class#Executors#0" />
+                <element signature="class#DefaultThreadFactory#0;class#Executors#0" />
+                <element signature="method#DefaultThreadFactory#0;class#DefaultThreadFactory#0;class#Executors#0" />
+                <element signature="method#newThread#0;class#DefaultThreadFactory#0;class#Executors#0" />
+                <element signature="docComment;class#PrivilegedThreadFactory#0;class#Executors#0" />
+                <element signature="class#PrivilegedThreadFactory#0;class#Executors#0" />
+                <element signature="method#PrivilegedThreadFactory#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
+                <element signature="e#26539#26588#0" />
+                <element signature="method#newThread#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
+                <element signature="class#27159:27576" />
+                <element signature="method#run#0;class#27159:27576" />
+                <element signature="class#27262:27537" />
+                <element signature="method#run#0;class#27262:27537" />
+                <element signature="docComment;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#DelegatedExecutorService#0;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#execute#0;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#shutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#shutdownNow#0;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#isShutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#isTerminated#0;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#awaitTermination#0;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#invokeAll#0;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#invokeAll#1;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#invokeAny#0;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="method#invokeAny#1;class#DelegatedExecutorService#0;class#Executors#0" />
+                <element signature="class#FinalizableDelegatedExecutorService#0;class#Executors#0" />
+                <element signature="docComment;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+                <element signature="class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+                <element signature="method#DelegatedScheduledExecutorService#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+                <element signature="docComment;method#Executors#0;class#Executors#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="249" column="10" selection-start-line="249" selection-start-column="10" selection-end-line="249" selection-end-column="10" />
+              <folding>
+                <element signature="e#7388#7389#0" expanded="true" />
+                <element signature="e#7427#7428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/sort/BinsertSort.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/sort/TopNSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -146,20 +310,30 @@
       <find>01bf8e</find>
       <find>resource</find>
       <find>LinkedBlockingQueue</find>
+      <find>int*</find>
+      <find>cout &lt;&lt;</find>
+      <find>&lt;&lt;</find>
+      <find>&quot; &quot;;</find>
+      <find>endl;</find>
     </findStrings>
     <replaceStrings>
       <replace>public</replace>
       <replace>LinkedBlockingQueue</replace>
       <replace>Producer2</replace>
       <replace>Comsumer2</replace>
+      <replace>int[]</replace>
+      <replace>(</replace>
+      <replace>System.out.println(</replace>
+      <replace>)</replace>
+      <replace>;</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_java/java/thread/producer_consumer/multiple_producer_multiple_consumer/Producer.java" />
-        <option value="$PROJECT_DIR$/test_java/java/thread/producer_consumer/multiple_producer_multiple_consumer/Test.java" />
-        <option value="$PROJECT_DIR$/test_java/java/thread/producer_consumer/producer_consumer_notify/Apple.java" />
         <option value="$PROJECT_DIR$/test_java/java/thread/producer_consumer/producer_consumer_notify/Test.java" />
         <option value="$PROJECT_DIR$/test_java/java/thread/producer_consumer/producer_consumer_notify/Bascket.java" />
         <option value="$PROJECT_DIR$/test_java/java/thread/producer_consumer/producer_consumer_notify/Producer.java" />
@@ -208,6 +382,9 @@
         <option value="$PROJECT_DIR$/test_arithmetic/src/algorithm/generator/StringCompress.java" />
         <option value="$PROJECT_DIR$/test_arithmetic/src/algorithm/generator/ShortUrlGenerator.java" />
         <option value="$PROJECT_DIR$/test_arithmetic/src/algorithm/StringCompress.java" />
+        <option value="$PROJECT_DIR$/test_java/tools/EarDiff.java" />
+        <option value="$PROJECT_DIR$/test_java/concurrent/CyclicBarrierTest.java" />
+        <option value="$PROJECT_DIR$/test_arithmetic/src/algorithm/sort/TopNSort.java" />
       </list>
     </option>
   </component>
@@ -218,10 +395,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="147" />
-    <option name="y" value="419" />
-    <option name="width" value="1366" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -245,21 +422,300 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="4-7-2018">
+        <observation name="0" value="1.0" />
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="4-7-2018">
+        <observation name="true" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="1.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="1.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="1.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="1.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="4-7-2018">
+        <observation name="NORMAL" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="4-7-2018">
+        <observation name="normal" value="1.0" />
+        <observation name="ofDefaultType" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="4-7-2018">
+        <observation name="classNameOrGlobalStatic" value="1.0" />
+        <observation name="variable" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
+      <dailyData date="4-7-2018">
+        <observation name="unknown" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="4-7-2018">
+        <observation name="false" value="1.0" />
+        <observation name="null" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="4-7-2018">
+        <observation name="unknown" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="4-7-2018">
+        <observation name="normal" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionFinishedType">
+      <dailyData date="4-7-2018">
+        <observation name="cancelled" value="20.0" />
+        <observation name="typedSelect" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="4-7-2018">
+        <observation name="BASIC" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="4-7-2018">
+        <observation name="count" value="22.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:mostUsed">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="-1153.666667" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="-1053.0" />
+        <observation name="min" value="-1204.0" />
+        <observation name="variance" value="1266.722222" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="233.333333" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="100.0" />
+        <observation name="variance" value="2222.222222" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="2.666667" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="3.555556" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="1.333333" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.222222" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="1.333333" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.222222" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="8.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="9.0" />
+        <observation name="min" value="6.0" />
+        <observation name="variance" value="0.5" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="4-7-2018">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition" />
+    <factor id="mnemonicsUsage" />
+    <factor id="prefixLength" />
+    <factor id="timeBetweenTyping">
+      <dailyData date="4-7-2018">
+        <observation name="average" value="123.25" />
+        <observation name="count" value="4.0" />
+      </dailyData>
+    </factor>
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_arithmetic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,7 +734,7 @@
               <item name="test_arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
@@ -286,32 +742,48 @@
             </path>
             <path>
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user_defined_exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user_defined_exception" type="462c0819:PsiDirectoryNode" />
-              <item name="fast_exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -321,14 +793,15 @@
     <property name="SearchEverywhereHistoryKey" value="keymap&#9;null&#9;null&#10;bookmark&#9;ACTION&#9;Bookmarks&#10;Executor&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/concurrent/ExecutorService.java&#10;Treemap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/TreeMap.java&#10;TreeMap&#9;PSI&#9;JAVA://collection.TreeMapTest&#10;Objects&#9;PSI&#9;JAVA://java.util.Objects&#10;Object&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Object.java&#10;HashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/HashMap.java&#10;Randoma&#9;PSI&#9;JAVA://java.io.RandomAccessFile&#10;ArrayList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/ArrayList.java&#10;Hash&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/HashMap.java&#10;hashmap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537373307547" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/test_arithmetic/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../concurrent" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15409139" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -363,184 +836,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringCompress">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="LinkedBlockingQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_structure.queue.LinkedBlockingQueueTest" />
-      <module name="test_db" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data_structure.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.encrypt.rsa.MainTest" />
-      <module name="test_arithmetic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.encrypt.rsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Md5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.utils.Md5Util" />
-      <module name="test_arithmetic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ShortUrlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.generator.ShortUrlGenerator" />
-      <module name="test_arithmetic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StringCompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.StringCompress" />
-      <module name="test_arithmetic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestCharA2Z" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestCharA2Z" />
-      <module name="test_java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Proxy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CyclicBarrierTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -568,158 +864,131 @@
       </Profilers>
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CyclicBarrierTest" />
+      <module name="test_java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EarDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EarDiff" />
+      <module name="test_java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Md5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.utils.Md5Util" />
+      <module name="test_arithmetic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortUrlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.generator.ShortUrlGenerator" />
+      <module name="test_arithmetic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.StringCompress" />
+      <module name="test_arithmetic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
       </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Proxy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -727,40 +996,48 @@
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <module name="" />
-      <envs />
-      <method />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -769,21 +1046,22 @@
       <tasks />
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedBlockingQueueTest" />
-      <item itemvalue="Application.MainTest" />
       <item itemvalue="Application.Md5Util" />
       <item itemvalue="Application.ShortUrlGenerator" />
       <item itemvalue="Application.StringCompress" />
+      <item itemvalue="Application.EarDiff" />
+      <item itemvalue="Application.CyclicBarrierTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierTest" />
+        <item itemvalue="Application.EarDiff" />
         <item itemvalue="Application.StringCompress" />
         <item itemvalue="Application.ShortUrlGenerator" />
         <item itemvalue="Application.Md5Util" />
-        <item itemvalue="Application.LinkedBlockingQueueTest" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -825,6 +1103,12 @@
       <workItem from="1522203879681" duration="1570000" />
       <workItem from="1522304828820" duration="44000" />
       <workItem from="1523174674501" duration="14535000" />
+      <workItem from="1523282013483" duration="381000" />
+      <workItem from="1528527822970" duration="51000" />
+      <workItem from="1530634031031" duration="1133000" />
+      <workItem from="1537200319117" duration="1484000" />
+      <workItem from="1537280550932" duration="1637000" />
+      <workItem from="1537372225371" duration="1094000" />
     </task>
     <servers />
   </component>
@@ -861,7 +1145,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178349000" />
+    <option name="totallyTimeSpent" value="184129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -873,46 +1157,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.33959228" side_tool="true" weight="0.25391498" />
-      <window_info anchor="bottom" id="JRebel Console" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" order="8" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3299356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48918468" visible="true" weight="0.2246596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.1668455" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50223714" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.28013393" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6604077" visible="true" weight="0.23964165" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48918468" visible="true" weight="0.20386267" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5108153" side_tool="true" weight="0.19849785" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Properties" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5108153" side_tool="true" weight="0.19849785" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info id="Learn" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5219365" weight="0.31063122" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.50223714" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.47806355" side_tool="true" weight="0.62458473" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.28013393" />
+      <window_info anchor="bottom" id="Tail" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="17" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3299356" />
+      <window_info anchor="right" id="Properties" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Key Promoter X" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -920,11 +1207,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="38" />
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -960,62 +1242,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="285" column="52" lean-forward="true" selection-start-line="285" selection-start-column="52" selection-end-line="285" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_java/java8/lambda/stream/StreamUtilExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_java/java8/lambda/map/MapUtilExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_java/java8/optional/OptionalDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_java/test/CrackMyBatisIdeaPlugin3154.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_java/java8/lambda/stream/StreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_java/java8/newinterface/functional_interface/FunctionalInterfaceTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_java/java8/newinterface/DefaultInterfaceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_java/java8/optional/OptionalTest1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -1030,13 +1256,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19824">
-          <caret line="997" selection-start-line="997" selection-end-line="997" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/HashMap.java" />
     <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/recursion/RecursionTest1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -1079,13 +1299,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Exception.java" />
     <entry file="file://$PROJECT_DIR$/test_java/java/user_defined_exception/fast_exception/FaseExceptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1100,20 +1314,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/IllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8715">
-          <caret line="482" column="26" selection-start-line="482" selection-start-column="26" selection-end-line="482" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/IllegalArgumentException.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Class.java" />
     <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/hash/blizzard/GetHashTablePosition.java" />
     <entry file="file://$PROJECT_DIR$/test_java/java/user_defined_exception/fast_exception/BaseCheckedException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1122,13 +1324,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="413" column="34" selection-start-line="413" selection-start-column="34" selection-end-line="413" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Throwable.java" />
     <entry file="file://$PROJECT_DIR$/test_java/java/user_defined_exception/fast_exception/ExceptionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1143,13 +1339,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/jre/lib/jce.jar!/javax/crypto/Cipher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="632" column="22" selection-start-line="632" selection-start-column="22" selection-end-line="632" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/jre/lib/jce.jar!/javax/crypto/Cipher.class" />
     <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/encrypt/rsa/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1161,9 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,9 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1806">
           <caret line="96" column="53" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,38 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_db/src/data_structure/queue/ArrayBlockingQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5964">
-          <caret line="333" column="13" selection-start-line="333" selection-start-column="13" selection-end-line="333" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_db/src/data_structure/queue/LinkedBlockingQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding>
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,13 +1383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/net/URI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="847" column="39" selection-start-line="847" selection-start-column="36" selection-end-line="847" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/net/URI.java" />
     <entry file="file://$PROJECT_DIR$/test_java/java/io/buffer_read_write/BufferReaderWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1266,36 +1412,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/StringCoding.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/StringCoding.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/io/ByteArrayOutputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/NumberFormatException.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Long.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/concurrent/ArrayBlockingQueue.java" />
+    <entry file="file://$PROJECT_DIR$/test_db/src/data_structure/queue/ArrayBlockingQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="170" column="34" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="34" />
+        <state relative-caret-position="459">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/io/ByteArrayOutputStream.java">
+    <entry file="file://$PROJECT_DIR$/test_db/src/data_structure/queue/LinkedBlockingQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="244" column="23" selection-start-line="244" selection-start-column="23" selection-end-line="244" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding>
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#6761#6762#0" expanded="true" />
-            <element signature="e#6809#6810#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/generator/ShortUrlGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="914" column="18" selection-start-line="914" selection-start-column="18" selection-end-line="914" selection-end-column="18" />
+        <state relative-caret-position="714">
+          <caret line="42" column="64" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/utils/Md5Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="1207">
           <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1303,34 +1453,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/NumberFormatException.java">
+    <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/StringCompress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="578">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_java/tools/EarDiff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
           <folding>
-            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Long.java">
+    <entry file="file://$PROJECT_DIR$/test_java/concurrent/CyclicBarrierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="591" selection-start-line="591" selection-end-line="591" />
+        <state relative-caret-position="170">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/generator/ShortUrlGenerator.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="64" />
+        <state relative-caret-position="4063">
+          <caret line="273" column="21" selection-start-line="273" selection-start-column="14" selection-end-line="273" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/StringCompress.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Phaser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        <state relative-caret-position="3842">
+          <caret line="262" column="38" selection-start-line="262" selection-start-column="38" selection-end-line="262" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding>
+            <element signature="docComment;class#Executors#0" />
+            <element signature="docComment;method#newFixedThreadPool#0;class#Executors#0" />
+            <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" />
+            <element signature="method#newWorkStealingPool#0;class#Executors#0" />
+            <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" />
+            <element signature="method#newWorkStealingPool#1;class#Executors#0" />
+            <element signature="docComment;method#newFixedThreadPool#1;class#Executors#0" />
+            <element signature="method#newFixedThreadPool#1;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadExecutor#0;class#Executors#0" />
+            <element signature="method#newSingleThreadExecutor#0;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadExecutor#1;class#Executors#0" />
+            <element signature="method#newSingleThreadExecutor#1;class#Executors#0" />
+            <element signature="docComment;method#newCachedThreadPool#0;class#Executors#0" />
+            <element signature="method#newCachedThreadPool#0;class#Executors#0" />
+            <element signature="docComment;method#newCachedThreadPool#1;class#Executors#0" />
+            <element signature="method#newCachedThreadPool#1;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
+            <element signature="method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
+            <element signature="method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
+            <element signature="docComment;method#newScheduledThreadPool#0;class#Executors#0" />
+            <element signature="docComment;method#newScheduledThreadPool#1;class#Executors#0" />
+            <element signature="method#newScheduledThreadPool#1;class#Executors#0" />
+            <element signature="docComment;method#unconfigurableExecutorService#0;class#Executors#0" />
+            <element signature="method#unconfigurableExecutorService#0;class#Executors#0" />
+            <element signature="docComment;method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
+            <element signature="docComment;method#defaultThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;method#privilegedThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;method#callable#0;class#Executors#0" />
+            <element signature="method#callable#0;class#Executors#0" />
+            <element signature="docComment;method#callable#1;class#Executors#0" />
+            <element signature="method#callable#1;class#Executors#0" />
+            <element signature="docComment;method#callable#2;class#Executors#0" />
+            <element signature="method#callable#2;class#Executors#0" />
+            <element signature="class#18677:18756" />
+            <element signature="method#call#0;class#18677:18756" />
+            <element signature="docComment;method#callable#3;class#Executors#0" />
+            <element signature="method#callable#3;class#Executors#0" />
+            <element signature="class#19248:19344" />
+            <element signature="method#call#0;class#19248:19344" />
+            <element signature="docComment;method#privilegedCallable#0;class#Executors#0" />
+            <element signature="method#privilegedCallable#0;class#Executors#0" />
+            <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="docComment;class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="method#RunnableAdapter#0;class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="method#call#0;class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="docComment;class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="method#PrivilegedCallable#0;class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="method#call#0;class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="class#22475:22661" />
+            <element signature="method#run#0;class#22475:22661" />
+            <element signature="docComment;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="method#PrivilegedCallableUsingCurrentClassLoader#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="e#23308#23357#0" />
+            <element signature="e#23590#23648#0" />
+            <element signature="method#call#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="class#24124:24860" />
+            <element signature="method#run#0;class#24124:24860" />
+            <element signature="docComment;class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="method#DefaultThreadFactory#0;class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="method#newThread#0;class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="method#PrivilegedThreadFactory#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="e#26539#26588#0" />
+            <element signature="method#newThread#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="class#27159:27576" />
+            <element signature="method#run#0;class#27159:27576" />
+            <element signature="class#27262:27537" />
+            <element signature="method#run#0;class#27262:27537" />
+            <element signature="docComment;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#DelegatedExecutorService#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#execute#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#shutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#shutdownNow#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#isShutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#isTerminated#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#awaitTermination#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAll#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAll#1;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAny#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAny#1;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="class#FinalizableDelegatedExecutorService#0;class#Executors#0" />
+            <element signature="docComment;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#DelegatedScheduledExecutorService#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="docComment;method#Executors#0;class#Executors#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="249" column="10" selection-start-line="249" selection-start-column="10" selection-end-line="249" selection-end-column="10" />
+          <folding>
+            <element signature="e#7388#7389#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/sort/BinsertSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_arithmetic/src/algorithm/sort/TopNSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1635,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1374,7 +1658,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1386,12 +1670,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test_arithmetic</last-edited>
+          <last-edited>Test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

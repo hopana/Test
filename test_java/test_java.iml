@@ -33,6 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/design_pattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/concurrent" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
