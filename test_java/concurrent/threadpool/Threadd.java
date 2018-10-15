@@ -1,15 +1,15 @@
 package threadpool;
 
-/**
- * @author hupan
- * @version 2.0
- * @created 2015-8-3 上午10:59:18
- */
 
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * @author hupan
+ * @version 2.0
+ * @created 2015-8-3 上午10:59:18
+ */
 public class Threadd {
 
     public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package thread.concurrent;
-
 import java.io.File;
 import java.io.FileFilter;
 import java.util.concurrent.BlockingQueue;

@@ -1,5 +1,3 @@
-package thread.concurrent;
-
 import java.util.concurrent.TimeUnit;
 
 public class TimeUnitDemo {
