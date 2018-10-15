@@ -1,4 +1,4 @@
-package thread.concurrent.demo1;
+package demo1;
 
 /**
  * 利用Future模式进行处理
@@ -7,11 +7,7 @@ package thread.concurrent.demo1;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.*;
 
 public abstract class FutureProxy<T> {
     private final class CallableImpl implements Callable<T> {

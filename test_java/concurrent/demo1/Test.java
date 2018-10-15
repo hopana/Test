@@ -1,4 +1,4 @@
-package thread.concurrent.demo1;
+package demo1;
 
 import java.util.Calendar;
 
