@@ -4,18 +4,17 @@ package tree;
  * Date 07/07/2014
  *
  * @author tusroy
- *         <p>
- *         Youtube link - https://youtu.be/bmaeYtlO2OE
- *         Youtube link - https://youtu.be/_SiwrPXG9-g
- *         Youtube link - https://youtu.be/NA8B84DZYSA
+ * <p>
+ * Youtube link - https://youtu.be/bmaeYtlO2OE
+ * Youtube link - https://youtu.be/_SiwrPXG9-g
+ * Youtube link - https://youtu.be/NA8B84DZYSA
  */
 class NodeRef {
     Node node;
 }
 
 enum Color {
-    RED,
-    BLACK
+    RED, BLACK
 }
 
 class Node {

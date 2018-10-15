@@ -1,7 +1,7 @@
 package srping_simulator;
 
 /**
- * �򵥵�bean�����ڲ���
+ * 普通javabean
  */
 public class JavaBean {
     private String userName;
