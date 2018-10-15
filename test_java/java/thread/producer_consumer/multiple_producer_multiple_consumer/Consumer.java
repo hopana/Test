@@ -8,14 +8,15 @@ package thread.producer_consumer.multiple_producer_multiple_consumer;
  */
 class Consumer extends Thread {
 
-    // 生产者和消费者操作的是同一个对象，因此必须持有这个对象的引用
+    /** 生产者和消费者操作的是同一个对象，因此必须持有这个对象的引用 */
     private Storage storage;
 
-    // 构造生产者的时候，将Storage引用传进去
+    /** 构造生产者的时候，将Storage引用传进去 */
     public Consumer(Storage storage) {
         this.storage = storage;
     }
 
+    @Override
     public void run() {
         try {
             while (true) {

@@ -11,8 +11,8 @@ import java.util.concurrent.SynchronousQueue;
  */
 class Storage {
 
-    // 空间大小为1的阻塞队列
-    private BlockingQueue<Integer> queue = new SynchronousQueue<Integer>();
+    /** 空间大小为1的阻塞队列 */
+    private BlockingQueue<Integer> queue = new SynchronousQueue<>();
 
     public static int NUM = -1;
 
