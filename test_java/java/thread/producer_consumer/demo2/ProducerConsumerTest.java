@@ -20,8 +20,9 @@ public class ProducerConsumerTest {
 	}
 }
 
-class SyncStack2 { // 支持多线程同步操作的堆栈的实现
+class SyncStack2 {
 	private int index = 0;
+	/** 支持多线程同步操作的堆栈的实现 */
 	private char[] data = new char[6];
 
 	public synchronized void push(char c) {
@@ -29,6 +30,7 @@ class SyncStack2 { // 支持多线程同步操作的堆栈的实现
 			try {
 				this.wait();
 			} catch (InterruptedException e) {
+			    e.printStackTrace();
 			}
 		}
 		this.notify();
@@ -41,6 +43,7 @@ class SyncStack2 { // 支持多线程同步操作的堆栈的实现
 			try {
 				this.wait();
 			} catch (InterruptedException e) {
+                e.printStackTrace();
 			}
 		}
 		this.notify();
