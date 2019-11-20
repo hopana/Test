@@ -21,7 +21,7 @@ public class ParseXmlDocTest {
 			Document document = saxReader.read(new File("./xml/book.xml"));
 
 			/******************** 操作节点的属性(attribute)值 ********************/
-			List list = document.selectNodes("//book/@category");
+			List list = document.selectNodes("/**book/@category");
 			Iterator iter = list.iterator();
 			while (iter.hasNext()) {
 				Attribute attribute = (Attribute) iter.next();
@@ -29,7 +29,7 @@ public class ParseXmlDocTest {
 					attribute.setValue("XML");
 			}
 
-			list = document.selectNodes("//title/@lang");
+			list = document.selectNodes("/**title/@lang");
 			iter = list.iterator();
 			while (iter.hasNext()) {
 				Attribute attribute = (Attribute) iter.next();
@@ -38,7 +38,7 @@ public class ParseXmlDocTest {
 			}
 
 			/******************** 操作节点的value值 ********************/
-			list = document.selectNodes("//book");
+			list = document.selectNodes("/**book");
 			iter = list.iterator();
 			while (iter.hasNext()) {
 				Element element = (Element) iter.next();
@@ -50,7 +50,7 @@ public class ParseXmlDocTest {
 				}
 			}
 
-			list = document.selectNodes("//book");
+			list = document.selectNodes("/**book");
 			iter = list.iterator();
 			while (iter.hasNext()) {
 				Element element = (Element) iter.next();
@@ -64,13 +64,13 @@ public class ParseXmlDocTest {
 
 			/******************** 准确选择位置 *********************/
 
-			// 注意：如果有多个book或者title节点，它只会读取第一个
-			Node singleNode = document.selectSingleNode("//book/title");
+			/** 注意：如果有多个book或者title节点，它只会读取第一个
+			Node singleNode = document.selectSingleNode("/**book/title");
 			if (singleNode != null && singleNode.hasContent()) {
 				singleNode.setText("title");
 			}
 
-			// 选取bookstore下面的第2个book节点下的price节点
+			/** 选取bookstore下面的第2个book节点下的price节点
 			Node node = document.selectSingleNode("/bookstore/book[3]/title[@test='test']");
 			System.out.println(node.getText());
 

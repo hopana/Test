@@ -32,7 +32,7 @@ public class ServletTest implements Servlet {
 		
 		System.out.println("servlet service...");
 		
-		// 从response中获得PrintWriter
+		/** 从response中获得PrintWriter
 		PrintWriter pw = response.getWriter();
 		pw.println("hello world");
 
