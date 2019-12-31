@@ -1,4 +1,4 @@
-package functional;
+package functional.functional_interface;
 
 /**
  * 函数式接口

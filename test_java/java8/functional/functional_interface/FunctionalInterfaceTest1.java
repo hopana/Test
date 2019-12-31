@@ -1,4 +1,4 @@
-package newinterface.functional_interface;
+package functional.functional_interface;
 
 /**
  * 函数式接口(@FunctionalInterface)定义：

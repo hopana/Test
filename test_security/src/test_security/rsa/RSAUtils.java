@@ -17,7 +17,7 @@ import java.util.Map;
 
 import javax.crypto.Cipher;
 
-/** *//**
+/** */****
  * <p>
  * RSA公钥/私钥/签名工具包
  * </p>
@@ -36,37 +36,37 @@ import javax.crypto.Cipher;
  */
 public class RSAUtils {
 
-    /** *//**
+    /** */****
      * 加密算法RSA
      */
     public static final String KEY_ALGORITHM = "RSA";
     
-    /** *//**
+    /** */****
      * 签名算法
      */
     public static final String SIGNATURE_ALGORITHM = "MD5withRSA";
 
-    /** *//**
+    /** */****
      * 获取公钥的key
      */
     private static final String PUBLIC_KEY = "RSAPublicKey";
     
-    /** *//**
+    /** */****
      * 获取私钥的key
      */
     private static final String PRIVATE_KEY = "RSAPrivateKey";
     
-    /** *//**
+    /** */****
      * RSA最大加密明文大小
      */
     private static final int MAX_ENCRYPT_BLOCK = 117;
     
-    /** *//**
+    /** */****
      * RSA最大解密密文大小
      */
     private static final int MAX_DECRYPT_BLOCK = 128;
 
-    /** *//**
+    /** */****
      * <p>
      * 生成密钥对(公钥和私钥)
      * </p>
@@ -86,7 +86,7 @@ public class RSAUtils {
         return keyMap;
     }
     
-    /** *//**
+    /** */****
      * <p>
      * 用私钥对信息生成数字签名
      * </p>
@@ -108,7 +108,7 @@ public class RSAUtils {
         return Base64Utils.encode(signature.sign());
     }
 
-    /** *//**
+    /** */****
      * <p>
      * 校验数字签名
      * </p>
@@ -133,7 +133,7 @@ public class RSAUtils {
         return signature.verify(Base64Utils.decode(sign));
     }
 
-    /** *//**
+    /** */****
      * <P>
      * 私钥解密
      * </p>
@@ -156,7 +156,7 @@ public class RSAUtils {
         int offSet = 0;
         byte[] cache;
         int i = 0;
-        // 对数据分段解密
+        /** 对数据分段解密
         while (inputLen - offSet > 0) {
             if (inputLen - offSet > MAX_DECRYPT_BLOCK) {
                 cache = cipher.doFinal(encryptedData, offSet, MAX_DECRYPT_BLOCK);
@@ -172,7 +172,7 @@ public class RSAUtils {
         return decryptedData;
     }
 
-    /** *//**
+    /** */****
      * <p>
      * 公钥解密
      * </p>
@@ -195,7 +195,7 @@ public class RSAUtils {
         int offSet = 0;
         byte[] cache;
         int i = 0;
-        // 对数据分段解密
+        /** 对数据分段解密
         while (inputLen - offSet > 0) {
             if (inputLen - offSet > MAX_DECRYPT_BLOCK) {
                 cache = cipher.doFinal(encryptedData, offSet, MAX_DECRYPT_BLOCK);
@@ -211,7 +211,7 @@ public class RSAUtils {
         return decryptedData;
     }
 
-    /** *//**
+    /** */****
      * <p>
      * 公钥加密
      * </p>
@@ -227,7 +227,7 @@ public class RSAUtils {
         X509EncodedKeySpec x509KeySpec = new X509EncodedKeySpec(keyBytes);
         KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);
         Key publicK = keyFactory.generatePublic(x509KeySpec);
-        // 对数据加密
+        /** 对数据加密
         Cipher cipher = Cipher.getInstance(keyFactory.getAlgorithm());
         cipher.init(Cipher.ENCRYPT_MODE, publicK);
         int inputLen = data.length;
@@ -235,7 +235,7 @@ public class RSAUtils {
         int offSet = 0;
         byte[] cache;
         int i = 0;
-        // 对数据分段加密
+        /** 对数据分段加密
         while (inputLen - offSet > 0) {
             if (inputLen - offSet > MAX_ENCRYPT_BLOCK) {
                 cache = cipher.doFinal(data, offSet, MAX_ENCRYPT_BLOCK);
@@ -251,7 +251,7 @@ public class RSAUtils {
         return encryptedData;
     }
 
-    /** *//**
+    /** */****
      * <p>
      * 私钥加密
      * </p>
@@ -274,7 +274,7 @@ public class RSAUtils {
         int offSet = 0;
         byte[] cache;
         int i = 0;
-        // 对数据分段加密
+        /** 对数据分段加密
         while (inputLen - offSet > 0) {
             if (inputLen - offSet > MAX_ENCRYPT_BLOCK) {
                 cache = cipher.doFinal(data, offSet, MAX_ENCRYPT_BLOCK);
@@ -290,7 +290,7 @@ public class RSAUtils {
         return encryptedData;
     }
 
-    /** *//**
+    /** */****
      * <p>
      * 获取私钥
      * </p>
@@ -305,7 +305,7 @@ public class RSAUtils {
         return Base64Utils.encode(key.getEncoded());
     }
 
-    /** *//**
+    /** */****
      * <p>
      * 获取公钥
      * </p>

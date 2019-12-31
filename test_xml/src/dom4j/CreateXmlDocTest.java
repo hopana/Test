@@ -114,11 +114,11 @@ public class CreateXmlDocTest {
 		bookstore.add(book3);
 
 		OutputFormat format = OutputFormat.createCompactFormat();
-		format.setSuppressDeclaration(true);//去掉xml头
+		format.setSuppressDeclaration(true);/**去掉xml头
 		format.isPadText();
 		format.setEncoding("utf-8");
 		
-		doc.addDocType("catalog", null, "file://c:/Dtds/catalog.dtd");
+		doc.addDocType("catalog", null, "file:/**c:/Dtds/catalog.dtd");
 		try {
 			FileOutputStream fos = new FileOutputStream(new File("./xml/book.xml"));
 			XMLWriter output = new XMLWriter(fos,format);

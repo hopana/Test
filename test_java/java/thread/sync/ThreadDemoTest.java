@@ -6,21 +6,20 @@ package thread.sync;
  * @author snowday88
  */
 public class ThreadDemoTest {
-    // 测试
-    public static void main(String[] args) throws Exception {
+
+    public static void main(String[] args) {
         Object obj = new Object();
-        // 启动两个线程
         Thread1 t1 = new Thread1(obj);
-
         Thread2 t2 = new Thread2(obj);
-
         t1.start();
         t2.start();
     }
 
 }
 
-// 一个线程打印1-52
+/**
+ * 一个线程打印1-52
+ */
 class Thread1 extends Thread {
     private Object obj;
 
@@ -49,7 +48,9 @@ class Thread1 extends Thread {
 
 }
 
-// 另一个线程打印字母A-Z
+/**
+ * 另一个线程打印字母A-Z
+ */
 class Thread2 extends Thread {
     private Object obj;
 

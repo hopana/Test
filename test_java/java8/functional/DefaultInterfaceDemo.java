@@ -1,4 +1,4 @@
-package newinterface;
+package functional;
 
 import java.util.function.Supplier;
 

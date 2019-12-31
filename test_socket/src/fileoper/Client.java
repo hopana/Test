@@ -30,16 +30,16 @@ public class Client {
 			byte[] buffer = new byte[1024];
 			int len = 0;
 
-			// 边读取网络数据 边将其写入到磁盘中
+			/** 边读取网络数据 边将其写入到磁盘中
 			while ((len = is.read(buffer)) != -1) {
 				os.write(buffer, 0, len);
 			}
 
-			// 关闭流对象 释放资源
+			/** 关闭流对象 释放资源
 			os.flush();
 			os.close();
 			is.close();
-			// 关闭通信对象
+			/** 关闭通信对象
 			socket.close();
 		} catch (IOException e) {
 			e.printStackTrace();

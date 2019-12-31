@@ -10,7 +10,7 @@ import java.io.OutputStream;
 
 import it.sauronsoftware.base64.Base64;
 
-/** *//**
+/** */****
  * <p>
  * BASE64编码解码工具包
  * </p>
@@ -24,12 +24,12 @@ import it.sauronsoftware.base64.Base64;
  */
 public class Base64Utils {
 
-    /** *//**
+    /** */****
      * 文件读取缓冲区大小
      */
     private static final int CACHE_SIZE = 1024;
     
-    /** *//**
+    /** */****
      * <p>
      * BASE64字符串解码为二进制数据
      * </p>
@@ -42,7 +42,7 @@ public class Base64Utils {
         return Base64.decode(base64.getBytes());
     }
     
-    /** *//**
+    /** */****
      * <p>
      * 二进制数据编码为BASE64字符串
      * </p>
@@ -55,7 +55,7 @@ public class Base64Utils {
         return new String(Base64.encode(bytes));
     }
     
-    /** *//**
+    /** */****
      * <p>
      * 将文件编码为BASE64字符串
      * </p>
@@ -72,7 +72,7 @@ public class Base64Utils {
         return encode(bytes);
     }
     
-    /** *//**
+    /** */****
      * <p>
      * BASE64字符串转回文件
      * </p>
@@ -86,7 +86,7 @@ public class Base64Utils {
         byteArrayToFile(bytes, filePath);
     }
     
-    /** *//**
+    /** */****
      * <p>
      * 文件转换为二进制数组
      * </p>
@@ -114,7 +114,7 @@ public class Base64Utils {
         return data;
     }
     
-    /** *//**
+    /** */****
      * <p>
      * 二进制数据写文件
      * </p>

@@ -28,7 +28,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/WebRoot/WEB-INF/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -36,11 +36,6 @@
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="library" name="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER" level="application" />
-    <orderEntry type="library" name="org.eclipse.jst.j2ee.internal.web.container" level="application" />
-    <orderEntry type="library" name="org.eclipse.jst.j2ee.internal.module.container" level="application" />
-    <orderEntry type="library" name="com.genuitec.runtime.library/com.genuitec.jstl_1.2" level="application" />
-    <orderEntry type="library" name="com.genuitec.runtime.library/com.genuitec.generic_5.0" level="application" />
     <orderEntry type="module-library">
       <library name="jackson-all-1.7.6.jar">
         <CLASSES>
