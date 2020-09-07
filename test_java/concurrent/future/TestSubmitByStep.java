@@ -5,7 +5,6 @@ import org.apache.commons.lang3.ArrayUtils;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
 
 /**
  * submit(Runnable task)方法多个任务依次执行
@@ -54,8 +53,7 @@ public class TestSubmitByStep {
         ExecutorService executor = Executors.newFixedThreadPool(5);
 
         for (Runnable thread : threads) {
-            Future<?> future = executor.submit(thread);
-            future.get();
+            executor.submit(thread).get();
         }
 
         executor.shutdown();
